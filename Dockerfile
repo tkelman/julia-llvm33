@@ -1,4 +1,4 @@
-FROM tkelman/julia-otherdeps
+FROM tkelman/julia-otherdeps:release-0.4
 MAINTAINER Tony Kelman <tony@kelman.net>
 
 RUN for ARCH in i686 x86_64; do \
